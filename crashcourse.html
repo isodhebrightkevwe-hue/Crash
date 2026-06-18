@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cat Photo app</title>
+</head>
+
+<body>
+    <main>
+        <h1>Welcome to the Crash Course</h1>
+        <h2>Cat Photo app </h2>
+        <!-- TODO ADD LINKS TO CAT PHOTOS -->
+        <p> Click here to see more <a href="#" target="_blank">Cat Photos</a></p>
+
+        <img src="https://cdn.freecodecamp.org/youtube/html-course/cats.jpg" alt="A cute orange cat lying on its back.">
+        <h3>cat list </h3>
+        <div class="list">
+            <p>things cat <em>love</em></p>
+            <ul>
+                <li>cat food</li>
+                <li>cat toys</li>
+                <li>cat beds</li>
+            </ul><br>
+            <img src="https://cdn.freecodecamp.org/youtube/html-course/lasagna.jpg" alt="">
+            <p>things cats <strong>hates</strong></p>
+            <ol>
+                <li>water</li>
+                <li>loud noises</li>
+                <li>being handled</li><br>
+                <img src="https://cdn.freecodecamp.org/youtube/html-course/cats.jpg" alt="">
+            </ol>
+        </div>
+        <form action="/submit-cat-photo">
+            <label for="Loving"><input id="Loving" type="checkbox" name="Personality">loving</label></label><br>
+            <label for="Lazy"><input id="Lazy" type="checkbox" name="Personality">lazy</label></label><br>
+            <label for="Energytic"><input id="Energytic" type="checkbox"
+                    name="Personality">Energytic</label></label><br>
+
+            <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor">indoor</label><br>
+            <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"
+                    value="outdoor">outdoor</label><br>
+            <input type="text" placeholder="cat photo url" required><br>
+            <button type="submit">submit</button><br>
+        </form>
+    </main>
+    <footer>
+        <p>No Copytwrite - <a href="https://www.freecodecamp.org" target="_blank">freecodecamp.ORG</a></p>
+    </footer>
+</body>
+
+</html>
